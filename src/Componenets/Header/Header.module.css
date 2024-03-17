@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #f8f8f8; /* Example background color */
+  }
+  
+  .header .logo img {
+    height: 50px; /* Adjust based on your logo's size */
+  }
+  
+  .header .navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust the space between navigation links */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header .navigation li {
+    padding: 10px 0; /* Adjust for better visual appearance */
+  }
+  
+  .header .navigation a {
+    text-decoration: none;
+    color: #333; /* Example text color */
+  }
+  
+  .header .actions {
+    display: flex;
+    gap: 20px; /* Adjust the space between action links */
+  }
+  
+  .header .actions a {
+    text-decoration: none;
+    color: #333; /* Example text color */
+  }
+  
